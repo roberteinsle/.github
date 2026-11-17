@@ -1,0 +1,28 @@
+# Vorlage: nach .github/dependabot.yml im jeweiligen Repo kopieren.
+# Nicht genutzte Ökosysteme löschen, sonst meldet Dependabot Fehler.
+version: 2
+updates:
+  - package-ecosystem: "composer"        # PHP / Laravel
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "npm"             # JavaScript
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "pip"             # Python
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "docker"          # Dockerfile
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "github-actions"  # Workflows
+    directory: "/"
+    schedule:
+      interval: "weekly"
