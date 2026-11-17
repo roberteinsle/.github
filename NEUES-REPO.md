@@ -10,6 +10,8 @@
 - [ ] `.env.example` – alle Variablen ohne echte Werte
 - [ ] `LICENSE` – nur bei öffentlichen Repos
 - [ ] `.github/dependabot.yml` – Vorlage aus `vorlagen/dependabot.yml` kopieren, nicht genutzte Ökosysteme löschen
+- [ ] `docs/STANDARDS.md` – aus diesem Repo kopieren
+- [ ] `CLAUDE.md` – erste Zeile `@docs/STANDARDS.md`, danach nur Projektspezifisches
 
 ## 2. Sicherheit
 - [ ] Skript erneut ausführen (kann man beliebig oft laufen lassen), in PowerShell im Ordner dieses Repos:
